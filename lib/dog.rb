@@ -4,7 +4,7 @@ class Dog
   attr_accessor :name, :save
   def initialize(name)
     @name = name
-    @save = save
+    self.save
     @@all << self
   end
   
@@ -17,7 +17,7 @@ class Dog
     puts Dog.name
   end
   
-  def self.save
+  def save
     @@all << self
   end
   
