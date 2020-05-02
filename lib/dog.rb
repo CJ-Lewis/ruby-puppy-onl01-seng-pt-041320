@@ -19,4 +19,4 @@ class Dog
   def save
     self.push(@@all)
   end
-  
+end
