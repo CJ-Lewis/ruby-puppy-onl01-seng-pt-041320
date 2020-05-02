@@ -17,7 +17,7 @@ class Dog
     puts Dog.name
   end
   
-  def self.save
+  def save
     @@all << self
   end
   
